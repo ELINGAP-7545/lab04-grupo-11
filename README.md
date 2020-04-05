@@ -1,5 +1,6 @@
 # lab04
-# BCD2SSeg
-# 1.pedro javier puerto
-# 2.wolfran esteban suarez
-# 3.jorge sanchez abella
+
+## BCD2SSeg - Grupo 11
+#### 1. Pedro Javier Puerto
+#### 2. Wolfran Esteban Suarez
+#### 3. Jorge Sanchez Abella
