@@ -122,6 +122,10 @@ En el paquete de trabajo [WP04](https://classroom.github.com/g/zCBwHHKX)   esta 
 
 # HDL
 
+## Desarrollo de la pr塶tica
+
+![display ](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/imagenes/Simulacion%20BCD%20-%207%20Seg%201%20Display.jpg)
+
 ## 7 Segmentos 1 Display 
 
 se utiliza una unidad de tiempo para especificar unidad de tiempo en la simulaci車n y determinas la Duraci車n de tiempo de 1ns de los delay y 1ps para el an芍lisis de recolecci車n de datos. Se especifica un valor de 16 bits los cuales se encargan de llevar el numero a mostrar en los displays como visualizaci車n dinamica.
@@ -239,6 +243,7 @@ module BCDtoSSeg_TB;
    end
 
 endmodule
+...
 
 # Desarrollo de la pr塶tica
 
@@ -253,7 +258,7 @@ endmodule
 
 # VHL
 ![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display.PNG)
-![display1](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display1.PNG)
+![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display1.PNG)
 
 # Testbench
 ![testbench](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/testbench.PNG)
