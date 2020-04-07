@@ -22,12 +22,8 @@ Una vez clone el repositorio, realice lo siguiente:
 
 En este punto, ya se estar en la capacidad de describir e implementar Hardware sencillo, con la ayuda de herramientas computaciones.  y como se vio en los dos ejemplos anteriores, la suma se visualiza en leds,  algo que es dif铆cil para  validad visualmente la respuesta. Por lo tanto, es aconsejable tener una visualizaci贸n mas acorde a las necesidades, como por ejemplo  visualizar los resultados en el [ Display 7 Segmentos](https://en.wikipedia.org/wiki/Seven-segment_display) 
 
-En este Ejercicio se propone que realicen el dise帽o, sintentizaci贸n e implementaci贸n del Display de 7 sergmentos, el cual permita visualizar n煤meros  en representaci贸n hexadecimal (0x0 a 0xF).  En el siguiente gr谩fico, se observa cual es el funcionamiento deseado del display:
+En este Ejercicio se propone que realicen el dise帽o, sintentizaci贸n e implementaci贸n del Display de 7 sergmentos, el cual permita visualizar n煤meros  en representaci贸n hexadecimal (0x0 a 0xF).  
 
-
-![gif display](https://upload.wikimedia.org/wikipedia/commons/2/2b/Seven_segment_display-animated.gif)
-
-Imagen tomada de [User:Guam + Various](https://commons.wikimedia.org/wiki/File:Seven_segment_display-animated.gif)
 
 A continuaci贸n se presentan los pasos recomendados para el ejercicio:
 
@@ -249,12 +245,8 @@ Se requiere implementaci髇 de un divisor de frecuencia, el cual permite una redu
 
 #### En esta simulaci髇 se evidencia la conversi髇 de c骴igo BCD a 7Segmentos
 
-## Simulaci贸n Quartus
 
-
-
-
-## 7 Segmentos x4Displays
+## 7 Segmentos x 4 Displays
 
 ## VHL
 ![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display.PNG)
