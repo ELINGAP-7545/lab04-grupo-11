@@ -120,14 +120,6 @@ En el paquete de trabajo [WP04](https://classroom.github.com/g/zCBwHHKX)   esta 
 * Modificar o AÃ±adir los bloques necesarios para que la visualizaciÃ³n sea en representaciÃ³n Decimal y no Hexadecimal.
 * Realice la respectiva publicaciÃ³n del repositorio antes de la fecha dada con todo el cÃ³digo  fuente 
 
-# HDL
-
-## 7 Segmentos 1 Display 
-
-se utiliza una unidad de tiempo para especificar unidad de tiempo en la simulaci¨®n y determinas la Duraci¨®n de tiempo de 1ns de los delay y 1ps para el an¨¢lisis de recolecci¨®n de datos. Se especifica un valor de 16 bits los cuales se encargan de llevar el numero a mostrar en los displays como visualizaci¨®n dinamica.
-Se utiliza un divisor de frecuencia para llevar la informaci¨®n y saber   que parte de la se?al encender¨¢ el 7 segmento. La frecuencia se debe dividir en la cantidad de    displays en este caso 4 y de dividen en 4 bits por cada uno. Para este proyecto es necesario implementar un reloj debido a que es una implementaci¨®n de estados algor¨ªtmicos y necesita trabajar con flancos d subida, y con cada flanco incrementara el valor de la frecuencia para determinar a que display corresponde, se incluye un reset para anular el valor de todo el funcionamiento del algoritmo y volver al valor principal 0. Cada display tiene una asignaci¨®n de 4 bits y su representaci¨®n num¨¦rica   va de 0-F es decir si el valor 1- 0001, 2-0010, 3-001, 0100.  Cuando un display se encuentra encendido los dem¨¢s permanecen apagados.
-
-
 
 ```verilog
 module BCDtoSSeg (BCD, SSeg, an);
@@ -242,6 +234,14 @@ endmodule
 ```
 
 # Desarrollo de la práctica
+
+# HDL
+
+## 7 Segmentos 1 Display 
+
+Se utiliza una unidad de tiempo para especificar la frecuencia en la simulación y determinar la duración de periodo de 1ns de los delay´s y 1ps para el analisis de recolección de datos. 
+Se especifica un valor de 16 bits, el cuál se subdivirá en grupos de 4 bits permitiendo representar un digito en cada display.
+Se requiere implementación de un divisor de frecuencia, el cual permite una reducción de si misma que permite visualizar la simulacipon desarrollada. Para este proyecto es necesario contar con pulsos de reloj debido a que es una implementación de estados algoritmicos y su forma de operar es basada en flancos de subida, con cada flanco incrementando el valor de la frecuencia para determinar a que display corresponde. Se incluye un reset para inicializar el valor del algoritmo al valor principal 0. Cada display tiene una representación de 4 bits y cada bit representa a su vez un display tal que 1- 1110, 2-1101, 3-1100, 4-0100. permitiendo asi mantener conexión común en lo anodos y asegurar que no se tendra activacion simultanea en los 7 segmentos incrementando su valor de 1 en 1 y de izquierda a derecha. 
 
 ## Simulación 1 Display
 
