@@ -1,12 +1,7 @@
-module BCDtoSSeg (BCD, SSeg, an);
+module BCDtoSSeg (BCD, SSeg);
 
   input [3:0] BCD;
-  output reg [0:6] SSeg;
-  output [3:0] an;
-
-assign an=4'b1110;
-
-
+  output reg [6:0] SSeg;
 always @ ( * ) begin
   case (BCD)
    4'b0000: SSeg = 7'b0000001; // "0"  

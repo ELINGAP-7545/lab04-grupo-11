@@ -1,0 +1,77 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Javier/Documents/ARQUITECTURA LAB4/simulation/modelsim
+vBCDtoSSeg
+!s110 1586217342
+!i10b 1
+!s100 BXjzEoQY[??UPlFM`;K`D3
+I@@:jbX<HK>Rc^MN@emjYR3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z2 w1585348128
+8C:/Users/Javier/Documents/ARQUITECTURA LAB4/BCDtoSSeg.v
+FC:/Users/Javier/Documents/ARQUITECTURA LAB4/BCDtoSSeg.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1586217342.000000
+!s107 C:/Users/Javier/Documents/ARQUITECTURA LAB4/BCDtoSSeg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Javier/Documents/ARQUITECTURA LAB4|C:/Users/Javier/Documents/ARQUITECTURA LAB4/BCDtoSSeg.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/Javier/Documents/ARQUITECTURA LAB4}
+Z7 tCvgOpt 0
+n@b@c@dto@s@seg
+vdisplay
+Z8 !s110 1586217343
+!i10b 1
+!s100 ?@:2Hnl;Lb8FX]HZV9WB[3
+IEJ^l0DCKMo1fU[J8=ckC43
+R1
+R0
+R2
+8C:/Users/Javier/Documents/ARQUITECTURA LAB4/display.v
+FC:/Users/Javier/Documents/ARQUITECTURA LAB4/display.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Javier/Documents/ARQUITECTURA LAB4/display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Javier/Documents/ARQUITECTURA LAB4|C:/Users/Javier/Documents/ARQUITECTURA LAB4/display.v|
+!i113 1
+R5
+R6
+R7
+vtestbench
+R8
+!i10b 1
+!s100 RZo0RAKomeI_7>mTUKegS1
+IYIc;I]WS`V11E;3l@llTA3
+R1
+R0
+w1586217316
+8C:/Users/Javier/Documents/ARQUITECTURA LAB4/testbench.v
+FC:/Users/Javier/Documents/ARQUITECTURA LAB4/testbench.v
+L0 25
+R3
+r1
+!s85 0
+31
+!s108 1586217343.000000
+!s107 C:/Users/Javier/Documents/ARQUITECTURA LAB4/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Javier/Documents/ARQUITECTURA LAB4|C:/Users/Javier/Documents/ARQUITECTURA LAB4/testbench.v|
+!i113 1
+R5
+R6
+R7
