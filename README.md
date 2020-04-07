@@ -12,6 +12,8 @@ lab04
 
 ![stack Overflow](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Captura.PNG) 
 
+
+
 # Introducción
 
 En este paquete de trabajo los estudiantes deben familiarizarce con el  framework de trabajo de la FPGA seleccionado, a partir de la descripción dedecodificador BCD2SSeg
@@ -257,7 +259,7 @@ endmodule
 
 
 =======
->>>>>>> ee4ab6d7ae0bf0575592417f956ace492b2e84b0
+![stack Overflow](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/simulation2.PNG)
 =======
 BCD2SSeg
 >>>>>>> parent of a87e42d... Update README.md
