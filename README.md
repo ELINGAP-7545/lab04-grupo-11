@@ -1,4 +1,5 @@
 # lab04
+<<<<<<< HEAD
 
 ## Diseño BCD-7seg - Grupo 11
 
@@ -359,4 +360,7 @@ endmodule
 ![diagrama](https://github.com/ELINGAP-7545/lab04-grupo-7/blob/master/Imagenes/Display4Seg.png)
 =======
 >>>>>>> ee4ab6d7ae0bf0575592417f956ace492b2e84b0
+=======
+BCD2SSeg
+>>>>>>> parent of a87e42d... Update README.md
 
