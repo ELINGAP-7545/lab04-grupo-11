@@ -11,6 +11,7 @@
 lab04
 
 
+
 # Introducción
 
 En este paquete de trabajo los estudiantes deben familiarizarce con el  framework de trabajo de la FPGA seleccionado, a partir de la descripción dedecodificador BCD2SSeg
