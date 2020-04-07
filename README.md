@@ -1,17 +1,11 @@
 # lab04
-<<<<<<< HEAD
+
 
 ## Diseño BCD-7seg - Grupo 11
 
 #### 1. Pedro Javier Puerto
 #### 2. Wolfran Esteban Suarez
 #### 3. Jorge Sanchez Abella
-<<<<<<< HEAD
->>>>>>> 378f651535f41c51a95d9a3912298198e89c062b
-lab04
-
-![stack Overflow](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Captura.PNG) 
-
 
 
 # Introducción
@@ -250,17 +244,17 @@ endmodule
 # 7 Segmentos x4Displays
 
 ## VHL
-
+![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display.PNG)
+![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display1.PNG)
 
 ## Testbench
-
+![testbench](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/testbench.PNG)
 
 ## Simulación Quartus
 
-
-=======
 ![stack Overflow](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/simulation2.PNG)
-=======
-BCD2SSeg
->>>>>>> parent of a87e42d... Update README.md
+
+## BCDtoSSeg
+
+![stack Overflow](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/BCDtoSSeg.PNG)
 
