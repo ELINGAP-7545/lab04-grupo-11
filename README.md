@@ -18,7 +18,7 @@ Las documentación deben estar diligencia en el archivo README.md del repositori
 
 Una vez clone el repositorio, realice lo siguiente:
 
-## Diseño BCD-7seg
+## Dise�o BCD-7seg
 
 En este punto, ya se estar en la capacidad de describir e implementar Hardware sencillo, con la ayuda de herramientas computaciones.  y como se vio en los dos ejemplos anteriores, la suma se visualiza en leds,  algo que es difícil para  validad visualmente la respuesta. Por lo tanto, es aconsejable tener una visualización mas acorde a las necesidades, como por ejemplo  visualizar los resultados en el [ Display 7 Segmentos](https://en.wikipedia.org/wiki/Seven-segment_display) 
 
@@ -67,10 +67,10 @@ Dejando como TOP a BCDtoSSeg, al momento de realizar la simulacion Testbench se 
 
 
 
-# Ejercicio - Visualización Dinámica 4 Display
+# Ejercicio - Visualizacion Dina�mica 4 Display
 
 
-Si el diseño digital de algún sistema se requiere mas de un display de 7 segmentos, es necesario  generar una visualización tal que sea necesario el menor número de pines para conectar todos los display en con la FPGA.
+Si el dise�o digital de algún sistema se requiere mas de un display de 7 segmentos, es necesario  generar una visualización tal que sea necesario el menor número de pines para conectar todos los display en con la FPGA.
 
 
 Por ahora, se ha visualizado el números en un solo display de 7 segmentos. Pero en la mayoría de los casos, los 7 pines de los cátodos están inter-conectados entre cada display, como se observa en la figura:
@@ -234,23 +234,25 @@ module BCDtoSSeg_TB;
 
 endmodule
 
-## Desarrollo de la pr�ctica
+# Desarrollo de la pr�ctica
 
-## Simulación Quartus
+![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/imagenes/Simulacion%20BCD%20-%207%20Seg%201%20Display.jpg)
+
+# Simulación Quartus
 
 
 
 
 # 7 Segmentos x4Displays
 
-## VHL
+# VHL
 ![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display.PNG)
 ![display1](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display1.PNG)
 
-## Testbench
+# Testbench
 ![testbench](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/testbench.PNG)
 
-## BCDtoSSeg
+# BCDtoSSeg
 
 ![BCDtoSSeg](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/BCDtoSSeg.PNG)
 
