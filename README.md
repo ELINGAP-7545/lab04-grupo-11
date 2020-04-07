@@ -122,6 +122,10 @@ En el paquete de trabajo [WP04](https://classroom.github.com/g/zCBwHHKX)   esta 
 
 # HDL
 
+# Desarrollo de la práctica
+
+![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/imagenes/Simulacion%20BCD%20-%207%20Seg%201%20Display.jpg)
+
 ## 7 Segmentos 1 Display 
 ```verilog
 module BCDtoSSeg (BCD, SSeg, an);
