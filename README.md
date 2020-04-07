@@ -10,7 +10,7 @@
 >>>>>>> 378f651535f41c51a95d9a3912298198e89c062b
 lab04
 
-
+![stack Overflow](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Captura.PNG) 
 
 # Introducción
 
