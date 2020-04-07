@@ -1,14 +1,14 @@
 # lab04
 
 
-## DiseÃ±o BCD-7seg - Grupo 11
+## Diseño BCD-7seg - Grupo 11
 
 #### 1. Pedro Javier Puerto    61165
 #### 2. Wolfran Esteban Suarez 78259
 #### 3. Jorge Sanchez Abella   79344
 
 
-# IntroducciÃ³n
+# Introducción
 
 En este paquete de trabajo los estudiantes deben familiarizarce con el  framework de trabajo de la FPGA seleccionado, a partir de la descripciÃ³n dedecodificador BCD2SSeg
 
@@ -252,10 +252,10 @@ endmodule
 
 ## BCDtoSSeg
 
-![stack Overflow](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/BCDtoSSeg.PNG)
+![BCDtoSSeg](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/BCDtoSSeg.PNG)
 
-## SimulaciÃ³n Quartus
+## Simulación Quartus
 
-![stack Overflow](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/simulation2.PNG)
+![Simulación Quartus](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/simulation2.PNG)
 
 
