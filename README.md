@@ -1,14 +1,11 @@
 # lab04
 
-<<<<<<< HEAD
-PEDRO PUERTO;
-JORGE SANCHEZ;
-WOLFRAM ESTEBAN SUAREZ;
-=======
 ## Diseño BCD-7seg - Grupo 11
+
 #### 1. Pedro Javier Puerto
 #### 2. Wolfran Esteban Suarez
 #### 3. Jorge Sanchez Abella
+<<<<<<< HEAD
 >>>>>>> 378f651535f41c51a95d9a3912298198e89c062b
 lab04
 
@@ -360,4 +357,6 @@ endmodule
 ## Simulación Quartus
 
 ![diagrama](https://github.com/ELINGAP-7545/lab04-grupo-7/blob/master/Imagenes/Display4Seg.png)
+=======
+>>>>>>> ee4ab6d7ae0bf0575592417f956ace492b2e84b0
 
