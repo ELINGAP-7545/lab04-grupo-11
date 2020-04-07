@@ -237,7 +237,7 @@ module BCDtoSSeg_TB;
    end
 
 endmodule
-...
+```
 
 # Desarrollo de la práctica
 
