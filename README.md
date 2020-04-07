@@ -56,19 +56,19 @@ Se realiza verificacion de los siguientes codigos en el programa QUARTUS
 
 BCDtoSSeg
 
-![diagrama](https://github.com/ELINGAP-7545/lab04-grupo-7/blob/master/Imagenes/BCDtoSSeg.PNG)
+
 
 Display
 
-![diagrama](https://github.com/ELINGAP-7545/lab04-grupo-7/blob/master/Imagenes/display.PNG)
+
 
 BCDtoSSeg_TB
 
-![diagrama](https://github.com/ELINGAP-7545/lab04-grupo-7/blob/master/Imagenes/BCDtoSSeg_TB.PNG)
+
 
 Dejando como TOP a BCDtoSSeg, al momento de realizar la simulacion Testbench se obtienen los siguientes resultados
 
-![diagrama](https://github.com/ELINGAP-7545/lab04-grupo-7/blob/master/Imagenes/Quartus%207seg1Display.jpg)
+
 
 
 # Ejercicio - Visualización Dinámica 4 Display
@@ -113,6 +113,10 @@ En el paquete de trabajo [WP04](https://classroom.github.com/g/zCBwHHKX)   esta 
 
 
 * Comprenda cada línea del código HDL de los  archivos que se encuentra en la carpera src. Si cree necesario realice los respectivos comentarios en el mismo archivo y comente
+
+
+
+
 * Realice en quartus la simulación para el BCD-7seg, analice los resultados.
 * Cree el nuevo proyecto HDL para Visualización Dinámica 4 Display, tomando como base los archivos dados.
 * Creer el archivo testbench.v
@@ -238,120 +242,20 @@ endmodule
 
 ## Simulación Quartus
 
-![diagrama](https://github.com/ELINGAP-7545/lab04-grupo-7/blob/master/Imagenes/Quartus%207seg1Display.jpg)
+
 
 
 # 7 Segmentos x4Displays
 
 ## VHL
 
-Se crea en la siguiente ruta: https://github.com/ELINGAP-7545/lab04-grupo-7/tree/master/7segx4Display
-
-```verilog
-`timescale 1ns / 1ps
-module display(
-    input [15:0] num,
-    input clk,
-    output [0:6] sseg,
-    output reg [3:0] an,
-	 input rst,
-	 output led
-    );
-
-
-
-reg [3:0]bcd=0;
-//wire [15:0] num=16'h4321;
- 
-BCDtoSSeg bcdtosseg(.BCD(bcd), .SSeg(sseg));
-
-reg [26:0] cfreq=0;
-wire enable;
-
-// Divisor de frecuecia
-
-assign enable = cfreq[16];
-assign led =enable;
-always @(posedge clk) begin
-  if(rst==1) begin
-		cfreq <= 0;
-	end else begin
-		cfreq <=cfreq+1;
-	end
-end
-
-reg [1:0] count =0;
-always @(posedge enable) begin
-		if(rst==1) begin
-			count<= 0;
-			an<=4'b1111; 
-		end else begin 
-			count<= count+1;
-			an<=4'b1101; 
-			case (count) 
-				2'h0: begin bcd <= num[3:0];   an<=4'b1110; end 
-				2'h1: begin bcd <= num[7:4];   an<=4'b1101; end 
-				2'h2: begin bcd <= num[11:8];  an<=4'b1011; end 
-				2'h3: begin bcd <= num[15:12]; an<=4'b0111; end 
-			endcase
-		end
-end
-
-endmodule
-```
 
 ## Testbench
 
 
-```verilog
-`timescale 1ns / 1ps//se utiliza para especificar unidad de tiempo en la simulación donde dará una 
-					//duración de tiempo de 1ns en los delays que se encuentran posteriormente y 1ps para el 
-					//análisis de recolección de datos. 
-
-module testbench;
-
-	// Inputs
-	reg [15:0] num=0;
-	reg [15:0] i;
-	reg clk2;
-	reg rst;
-
-	// Outputs
-	wire [0:6] sseg;
-	wire [3:0] an;
-
-	// Instantiate the Unit Under Test (UUT)
-	display uut (
-		.num(num), 
-		.clk(clk2), 
-		.sseg(sseg), 
-		.an(an), 
-		.rst(rst)
-	);
-
-	initial begin
-		// Initialize Inputs
-		
-		//for(i=0;i<10;i=i+1)begin
-		clk2= 0;
-		rst = 1;
-		#10 rst =0;
-		
-		num = 16'h8439;
-		
-      //end
-
-	end
-      
-
-	always #1 clk2 = ~clk2;
-	
-endmodule
-
-```
 ## Simulación Quartus
 
-![diagrama](https://github.com/ELINGAP-7545/lab04-grupo-7/blob/master/Imagenes/Display4Seg.png)
+
 =======
 >>>>>>> ee4ab6d7ae0bf0575592417f956ace492b2e84b0
 =======
