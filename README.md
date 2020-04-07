@@ -122,8 +122,7 @@ En el paquete de trabajo [WP04](https://classroom.github.com/g/zCBwHHKX)   esta 
 * Cree el nuevo proyecto HDL para Visualización Dinámica 4 Display, tomando como base los archivos dados.
 =======
 * Realice en quartus la simulación para el BCD-7seg, analice los resultados.
-* Cree el nuevo proyecto HDL para Visualización DinÃ¡mica 4 Display, tomando como base los archivos dados.
->>>>>>> 191de1ad7042ebce41e2eeabfa8afa0968069776
+* Cree el nuevo proyecto HDL para Visualización Dinámica 4 Display, tomando como base los archivos dados.
 * Creer el archivo testbench.v
 * Genera la simulación, Revise que el sistema funciona como usted lo esperaba. Realice lo comentarios necesarios en el archivo README.md.
 * Modificar o Añadir los bloques necesarios para que la visualización sea en representación Decimal y no Hexadecimal.
