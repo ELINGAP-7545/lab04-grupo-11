@@ -3,9 +3,9 @@
 
 ## Diseño BCD-7seg - Grupo 11
 
-#### 1. Pedro Javier Puerto
-#### 2. Wolfran Esteban Suarez
-#### 3. Jorge Sanchez Abella
+#### 1. Pedro Javier Puerto    61165
+#### 2. Wolfran Esteban Suarez 78259
+#### 3. Jorge Sanchez Abella   79344
 
 
 # Introducción
@@ -234,7 +234,7 @@ module BCDtoSSeg_TB;
 
 endmodule
 
-```
+## Desarrollo de la pr�ctica
 
 ## Simulación Quartus
 
