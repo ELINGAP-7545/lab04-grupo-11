@@ -107,7 +107,6 @@ En el paquete de trabajo [WP04](https://classroom.github.com/g/zCBwHHKX)   esta 
 
 
 
-
 * Realice en quartus la simulación para el BCD-7seg, analice los resultados.
 * Cree el nuevo proyecto HDL para Visualización Dinámica 4 Display, tomando como base los archivos dados.
 * Creer el archivo testbench.v
