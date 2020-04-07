@@ -52,14 +52,10 @@ BCDtoSSeg
 Display
 
 
-
 BCDtoSSeg_TB
 
 
-
 Dejando como TOP a BCDtoSSeg, al momento de realizar la simulacion Testbench se obtienen los siguientes resultados
-
-
 
 
 # Ejercicio - Visualizacion Dina¡mica 4 Display
@@ -239,7 +235,7 @@ Se requiere implementación de un divisor de frecuencia, el cual permite una redu
 
 ## Simulación 1 Display
 
-![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/imagenes/Simulacion%20BCD%20-%207%20Seg%201%20Display.jpg)
+![Simulación quuartus](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/imagenes/Simulacion%20BCD%20-%207%20Seg%201%20Display.jpg)
 
 #### En esta simulación se evidencia la conversión de código BCD a 7Segmentos
 
@@ -247,11 +243,11 @@ Se requiere implementación de un divisor de frecuencia, el cual permite una redu
 ## 7 Segmentos x 4 Displays
 
 ## VHDL
-![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display.PNG)
-![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display1.PNG)
+![Display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display.PNG)
+![Display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display1.PNG)
 
 ## Testbench
-![testbench](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/testbench.PNG)
+![Testbench](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/testbench.PNG)
 
 ## BCDtoSSeg
 
@@ -259,6 +255,6 @@ Se requiere implementación de un divisor de frecuencia, el cual permite una redu
 
 ## Simulación Quartus
 
-![Simulación Quartus](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/simulation2.PNG)
+![Simulación QuartusII](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/simulation2.PNG)
 
 
