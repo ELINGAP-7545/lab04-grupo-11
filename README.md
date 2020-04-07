@@ -229,7 +229,7 @@ endmodule
 
 # Desarrollo de la práctica
 
-# HDL
+# VHDL
 
 ## 7 Segmentos 1 Display 
 
@@ -246,7 +246,7 @@ Se requiere implementación de un divisor de frecuencia, el cual permite una redu
 
 ## 7 Segmentos x 4 Displays
 
-## VHL
+## VHDL
 ![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display.PNG)
 ![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display1.PNG)
 
