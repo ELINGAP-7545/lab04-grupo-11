@@ -247,14 +247,14 @@ Se requiere implementación de un divisor de frecuencia, el cual permite una redu
 
 ![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/imagenes/Simulacion%20BCD%20-%207%20Seg%201%20Display.jpg)
 
-#### En esta simulación se evidencia la conversión de código BCD a 7Segmentos
+#### En esta simulación se evidencia en la  primera línea los números de 1 a 9 en BCD y en la segunda línea su código respectivo 7Segmentos.
 
-## SimulaciÃ³n Quartus
-
-
+## Simulación de Quartus
 
 
-## 7 Segmentos x4Displays
+
+
+## Visualización en los 4 Display 7 Segmentos
 
 ## VHL
 ![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display.PNG)
@@ -271,4 +271,4 @@ Se requiere implementación de un divisor de frecuencia, el cual permite una redu
 
 ![Simulación Quartus](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/simulation2.PNG)
 
-
+#### En esta simulación se evidencia en la  primera Filael número que se desea visualizar los Displays. En la segunda fila está el código binario para representar cáda dígito en los Displays 7Segmentos y en la tercera fila está implísito con un "0" cero el ánodo del display que estará activo en cada instante de tiempo a su respectivo orden establecido.
