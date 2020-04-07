@@ -122,10 +122,6 @@ En el paquete de trabajo [WP04](https://classroom.github.com/g/zCBwHHKX)   esta 
 
 # HDL
 
-## Desarrollo de la práctica
-
-![display ](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/imagenes/Simulacion%20BCD%20-%207%20Seg%201%20Display.jpg)
-
 ## 7 Segmentos 1 Display 
 ```verilog
 module BCDtoSSeg (BCD, SSeg, an);
@@ -241,23 +237,27 @@ endmodule
 
 # Desarrollo de la práctica
 
+## Simulación 1 Display
+
 ![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/imagenes/Simulacion%20BCD%20-%207%20Seg%201%20Display.jpg)
 
-# SimulaciÃ³n Quartus
+#### En esta simulación se evidencia la conversión de código BCD a 7Segmentos
+
+## SimulaciÃ³n Quartus
 
 
 
 
-# 7 Segmentos x4Displays
+## 7 Segmentos x4Displays
 
-# VHL
+## VHL
 ![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display.PNG)
 ![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display1.PNG)
 
-# Testbench
+## Testbench
 ![testbench](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/testbench.PNG)
 
-# BCDtoSSeg
+## BCDtoSSeg
 
 ![BCDtoSSeg](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/BCDtoSSeg.PNG)
 
