@@ -10,7 +10,7 @@
 
 # IntroducciÛn
 
-En este paquete de trabajo los estudiantes deben familiarizarce con el  framework de trabajo de la FPGA seleccionado, a partir de la descripciÛn dedecodificador BCD2SSeg
+En este paquete de trabajo los estudiantes deben familiarizarce con el  framework de trabajo de la FPGA seleccionado, a partir de la descripci√≥n dedecodificador BCD2SSeg
 
 Para este paquete de trabajo, deben estar inscrito en un grupo y clonar la informaci√≥n del siguiente link [WP04](https://classroom.github.com/g/zCBwHHKX). Una vez aceptado el repositorio debe descargarlo en su computador, para ello debe clonar el mismo. Si no sabe c√≥mo hacerlo revise la metodolog√≠a de trabajo, donde se explica el proceso
 
@@ -22,8 +22,12 @@ Una vez clone el repositorio, realice lo siguiente:
 
 En este punto, ya se estar en la capacidad de describir e implementar Hardware sencillo, con la ayuda de herramientas computaciones.  y como se vio en los dos ejemplos anteriores, la suma se visualiza en leds,  algo que es dif√≠cil para  validad visualmente la respuesta. Por lo tanto, es aconsejable tener una visualizaci√≥n mas acorde a las necesidades, como por ejemplo  visualizar los resultados en el [ Display 7 Segmentos](https://en.wikipedia.org/wiki/Seven-segment_display) 
 
-En este Ejercicio se propone que realicen el dise√±o, sintentizaci√≥n e implementaci√≥n del Display de 7 sergmentos, el cual permita visualizar n√∫meros  en representaci√≥n hexadecimal (0x0 a 0xF).  
+En este Ejercicio se propone que realicen el dise√±o, sintentizaci√≥n e implementaci√≥n del Display de 7 sergmentos, el cual permita visualizar n√∫meros  en representaci√≥n hexadecimal (0x0 a 0xF).  En el siguiente gr√°fico, se observa cual es el funcionamiento deseado del display:
 
+
+![gif display](https://upload.wikimedia.org/wikipedia/commons/2/2b/Seven_segment_display-animated.gif)
+
+Imagen tomada de [User:Guam + Various](https://commons.wikimedia.org/wiki/File:Seven_segment_display-animated.gif)
 
 A continuaci√≥n se presentan los pasos recomendados para el ejercicio:
 
@@ -38,6 +42,7 @@ Si observa la caja negra/ funcional  ademas  de la salidad de 7 segmentos contie
 
 Para ello recuerde  que puede hacer uso, bien sea, de las tablas de verdad o de la descripci√≥n algor√≠tmica del BCD a  siete segmentos. Recuerde que cada Segmento es una salida  del dise√±o. Ejemplo, si desea  visualizar el n√∫mero **1**, la salida seria  de `Sseg es 0110000`. observe la gr√°fica a continuaci√≥n, para generar las salidas acorde al n√∫mero de entrada.
 
+![sseg](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/7_segment_display_labeled.svg/1024px-7_segment_display_labeled.svg.png)
 
 
 * Definir en  HDL el comportamiento del sistema ** :  Use Verilog para hacer la descripci√≥n funcional
@@ -100,6 +105,7 @@ En el paquete de trabajo [WP04](https://classroom.github.com/g/zCBwHHKX)   esta 
 
 
 * Comprenda cada l√≠nea del c√≥digo HDL de los  archivos que se encuentra en la carpera src. Si cree necesario realice los respectivos comentarios en el mismo archivo y comente
+
 
 
 
@@ -225,7 +231,7 @@ endmodule
 
 # Desarrollo de la pr·ctica
 
-# VHDL
+# HDL
 
 ## 7 Segmentos 1 Display 
 
@@ -237,14 +243,24 @@ Se requiere implementaciÛn de un divisor de frecuencia, el cual permite una redu
 
 ![SimulaciÛn quuartus](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/imagenes/Simulacion%20BCD%20-%207%20Seg%201%20Display.jpg)
 
-#### En esta simulaciÛn se evidencia la conversiÛn de cÛdigo BCD a 7Segmentos
+#### En esta simulaciÛn se evidencia en la  primera lÌnea los n˙meros de 1 a 9 en BCD y en la segunda lÌnea su cÛdigo respectivo 7Segmentos.
+
+## SimulaciÛn de Quartus
 
 
-## 7 Segmentos x 4 Displays
 
+
+## VisualizaciÛn en los 4 Display 7 Segmentos
+
+<<<<<<< HEAD
 ## VHDL
 ![Display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display.PNG)
 ![Display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display1.PNG)
+=======
+## VHL
+![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display.PNG)
+![display](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/Display1.PNG)
+>>>>>>> 32ba4673ffd0a85907e5be49cf0fb4bca8be6a08
 
 ## Testbench
 ![Testbench](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/testbench.PNG)
@@ -257,4 +273,5 @@ Se requiere implementaciÛn de un divisor de frecuencia, el cual permite una redu
 
 ![SimulaciÛn QuartusII](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/simulation2.PNG)
 
+#### En esta simulaciÛn se evidencia en la  primera Filael n˙mero que se desea visualizar los Displays. En la segunda fila est· el cÛdigo binario para representar c·da dÌgito en los Displays 7Segmentos y en la tercera fila est· implÌsito con un "0" cero el ·nodo del display que estar· activo en cada instante de tiempo a su respectivo orden establecido.
 
