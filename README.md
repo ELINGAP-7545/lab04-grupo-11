@@ -38,7 +38,6 @@ Si observa la caja negra/ funcional  ademas  de la salidad de 7 segmentos contie
 
 Para ello recuerde  que puede hacer uso, bien sea, de las tablas de verdad o de la descripción algorítmica del BCD a  siete segmentos. Recuerde que cada Segmento es una salida  del diseño. Ejemplo, si desea  visualizar el número **1**, la salida seria  de `Sseg es 0110000`. observe la gráfica a continuación, para generar las salidas acorde al número de entrada.
 
-![sseg](https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/7_segment_display_labeled.svg/1024px-7_segment_display_labeled.svg.png)
 
 
 * Definir en  HDL el comportamiento del sistema ** :  Use Verilog para hacer la descripción funcional
