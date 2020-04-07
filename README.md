@@ -123,6 +123,12 @@ En el paquete de trabajo [WP04](https://classroom.github.com/g/zCBwHHKX)   esta 
 # HDL
 
 ## 7 Segmentos 1 Display 
+
+se utiliza una unidad de tiempo para especificar unidad de tiempo en la simulaci車n y determinas la Duraci車n de tiempo de 1ns de los delay y 1ps para el an芍lisis de recolecci車n de datos. Se especifica un valor de 16 bits los cuales se encargan de llevar el numero a mostrar en los displays como visualizaci車n dinamica.
+Se utiliza un divisor de frecuencia para llevar la informaci車n y saber   que parte de la se?al encender芍 el 7 segmento. La frecuencia se debe dividir en la cantidad de    displays en este caso 4 y de dividen en 4 bits por cada uno. Para este proyecto es necesario implementar un reloj debido a que es una implementaci車n de estados algor赤tmicos y necesita trabajar con flancos d subida, y con cada flanco incrementara el valor de la frecuencia para determinar a que display corresponde, se incluye un reset para anular el valor de todo el funcionamiento del algoritmo y volver al valor principal 0. Cada display tiene una asignaci車n de 4 bits y su representaci車n num谷rica   va de 0-F es decir si el valor 1- 0001, 2-0010, 3-001, 0100.  Cuando un display se encuentra encendido los dem芍s permanecen apagados.
+
+
+
 ```verilog
 module BCDtoSSeg (BCD, SSeg, an);
 
