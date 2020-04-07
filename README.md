@@ -252,10 +252,10 @@ endmodule
 
 ## BCDtoSSeg
 
-![stack Overflow](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/BCDtoSSeg.PNG)
+![BCDtoSSeg](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/BCDtoSSeg.PNG)
 
 ## SimulaciÃ³n Quartus
 
-![stack Overflow](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/simulation2.PNG)
+![Simulación Quartus](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/simulation2.PNG)
 
 
