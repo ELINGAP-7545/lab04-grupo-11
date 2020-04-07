@@ -272,3 +272,4 @@ Se requiere implementación de un divisor de frecuencia, el cual permite una redu
 ![Simulación Quartus](https://github.com/ELINGAP-7545/lab04-grupo-11/blob/master/ARQUITECTURA%20LAB4/simulation2.PNG)
 
 #### En esta simulación se evidencia en la  primera Filael número que se desea visualizar los Displays. En la segunda fila está el código binario para representar cáda dígito en los Displays 7Segmentos y en la tercera fila está implísito con un "0" cero el ánodo del display que estará activo en cada instante de tiempo a su respectivo orden establecido.
+
